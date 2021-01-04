@@ -20,6 +20,23 @@ public class petlaForeach {
             if (five%5==0){
                 System.out.print(five+", ");
             }
-        }
+
+             }
+
+        System.out.println();
+        System.out.println("----Zadanie 3-------------------------");
+        System.out.println();
+        int[][]tabl={{1,2,3},{5,23,15},{23,10,100,22}};
+
+                for( int[]w: tabl){// zmienna "w" przyjmuje wszystkie elementy tablicy wewnwtrzne(zawarotsc wiersza(kolumna 1,2,3 etc)
+                    for( int k: w){// zmienna "k" pojedyncze elemety danego wiersza(wlwmenty wewnwtrznych tablic)
+                    System.out.print(k + ", ");
+
+                    }
+                    System.out.println();
+                }
+
+
+
     }
 }
